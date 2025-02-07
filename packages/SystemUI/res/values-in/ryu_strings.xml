@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2020-2024 PixelOS
+     Copyright (C) 2025 Ryu-UI
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -13,25 +13,25 @@
 -->
 
 <resources>
-    <!-- Label for area where tiles can be added to the qs panel -->
-    <string name="drag_or_tap_to_add_tiles">Hold &amp; drag or tap to add tiles</string>
+<!-- Label for area where tiles can be added to the qs panel -->
+    <string name="drag_or_tap_to_add_tiles">Tahan &amp; lepas untuk menambah item</string>
 
     <!-- Autobrightness tile -->
-    <string name="quick_settings_autobrightness_label">Auto brightness</string>
+    <string name="quick_settings_autobrightness_label">Kecerahan otomatis</string>
 
     <!-- Caffeine tile -->
-    <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+    <string name="quick_settings_caffeine_label">Kafein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Kafein off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Kafein on</string>
 
     <!-- DataSwitch Tile -->
-    <string name="qs_data_switch_label">Switch data card</string>
-    <string name="qs_data_switch_toast_0">Currently no SIM card is inserted</string>
-    <string name="qs_data_switch_toast_1">Currently only one SIM card is inserted</string>
+    <string name="qs_data_switch_label">Ganti kartu data</string>
+    <string name="qs_data_switch_toast_0">Saat ini tidak ada kartu SIM yang dimasukkan</string>
+    <string name="qs_data_switch_toast_1">Saat ini hanya satu kartu SIM yang dimasukkan</string>
     <string name="qs_data_switch_text_1">SIM 1</string>
     <string name="qs_data_switch_text_2">SIM 2</string>
-    <string name="qs_data_switch_changed_1">Switched data card to SIM 1.</string>
-    <string name="qs_data_switch_changed_2">Switched data card to SIM 2.</string>
+    <string name="qs_data_switch_changed_1">Mengalihkan kartu data ke SIM 1.</string>
+    <string name="qs_data_switch_changed_2">Mengalihkan kartu data ke SIM 2.</string>
 
     <!-- Heads up QS tile -->
     <string name="quick_settings_heads_up_label">Heads up</string>
@@ -40,37 +40,37 @@
 
     <!-- AOD QS tile -->
     <string name="quick_settings_aod_label">AOD</string>
-    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD off\nPenghemat baterai</string>
 
     <!-- USB tethering QS tile -->
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="quick_settings_usb_tether_label">Penambatan USB</string>
 
     <!-- PowerShare QS tile -->
-    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
-    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare off\nBattery saver</string>
-    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare off\nBattery too low</string>
-    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare is enabled</string>
+    <string name="quick_settings_powershare_label">PowerShare Nirkabel</string>
+    <string name="quick_settings_powershare_off_powersave_label">PowerShare Nirkabel mati\nPenghemat baterai</string>
+    <string name="quick_settings_powershare_off_low_battery_label">PowerShare Nirkabel mati\nBaterai terlalu rendah</string>
+    <string name="quick_settings_powershare_enabled_label">PowerShare Nirkabel diaktifkan</string>
 
     <!-- Status bar -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">Ikon bilah status</string>
 
     <!-- Name of the VPN status bar icon. -->
     <string name="status_bar_vpn">VPN</string>
 
     <!-- Name of the roaming status bar icon. -->
-    <string name="status_bar_roaming">Roaming indicator</string>
+    <string name="status_bar_roaming">Indikator roaming</string>
 
     <!-- Name of the data saver status bar icon. -->
-    <string name="status_bar_data_saver">Data saver</string>
+    <string name="status_bar_data_saver">Penghemat data</string>
 
     <!-- Text while recognizing face -->
-    <string name="face_unlock_recognizing">Recognizing face...</string>
+    <string name="face_unlock_recognizing">Mengenali wajah...</string>
 
     <!-- Screenshot chip -->
     <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
-    <string name="screenshot_delete_label">Delete</string>
+    <string name="screenshot_delete_label">Hapus</string>
     <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
-    <string name="screenshot_delete_description">Delete screenshot</string>
+    <string name="screenshot_delete_description">Hapus tangkapan layar</string>
 
     <!-- Advanced Reboot -->
     <string name="global_action_restart_advanced">Advanced</string>
@@ -80,8 +80,8 @@
 
     <!-- Volume Tile -->
     <string name="quick_settings_volume_tile_label">Volume</string>
-    <string name="quick_settings_volume_tile_muted">Muted</string>
-    <string name="quick_settings_volume_tile_low">Low</string>
-    <string name="quick_settings_volume_tile_high">High</string>
+    <string name="quick_settings_volume_tile_muted">Bisukan</string>
+    <string name="quick_settings_volume_tile_low">Rendah</string>
+    <string name="quick_settings_volume_tile_high">Tinggi</string>
 
 </resources>

@@ -25,6 +25,7 @@ import com.android.systemui.qs.tiles.WifiTile
 import com.android.systemui.qs.tiles.HeadsUpTile
 import com.android.systemui.qs.tiles.AODTile
 import com.android.systemui.qs.tiles.UsbTetherTile
+import com.android.systemui.qs.tiles.VolumeControlTile
 import com.android.systemui.qs.tiles.PowerShareTile
 
 import dagger.Binds
@@ -75,6 +76,12 @@ interface CustomModule {
     @IntoMap
     @StringKey(UsbTetherTile.TILE_SPEC)
     fun bindUsbTetherTile(usbTetherTile: UsbTetherTile): QSTileImpl<*>
+
+    /** Inject VolumeControlTile into tileMap in QSModule */
+     @Binds
+     @IntoMap
+     @StringKey(VolumeControlTile.TILE_SPEC)
+     fun bindVolumeControlTile(volumeControlTile: VolumeControlTile): QSTileImpl<*>
 
     /** Inject PowerShareTile into tileMap in QSModule */
     @Binds
