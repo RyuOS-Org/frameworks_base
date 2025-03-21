@@ -7447,5 +7447,7 @@ message MetricsEvent {
 
     // CUSTOM Metrics
     CUSTOM = 2772;
+    // Ryu-UI Metrics
+    RYUUI = 9069;
   }
 }
