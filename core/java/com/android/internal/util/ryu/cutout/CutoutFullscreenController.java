@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.clover.cutout;
+package com.android.internal.util.ryu.cutout;
 
 import android.content.ContentResolver;
 import android.content.Context;

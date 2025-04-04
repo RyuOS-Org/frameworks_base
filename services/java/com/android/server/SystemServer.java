@@ -297,7 +297,7 @@ import com.android.server.usage.StorageStatsService;
 import com.android.server.usage.UsageStatsService;
 import com.android.server.usb.UsbService;
 import com.android.server.utils.TimingsTraceAndSlog;
-import com.android.server.clover.CloverDeviceConfigService;
+import com.android.server.ryu.RyuDeviceConfigService;
 import com.android.server.vibrator.VibratorManagerService;
 import com.android.server.voiceinteraction.VoiceInteractionManagerService;
 import com.android.server.vr.VrManagerService;
@@ -2765,9 +2765,9 @@ public final class SystemServer implements Dumpable {
             mSystemServiceManager.startService(MediaMetricsManagerService.class);
             t.traceEnd();
 
-            // CloverDeviceConfigService
-            t.traceBegin("StartCloverDeviceConfigService");
-            mSystemServiceManager.startService(CloverDeviceConfigService.class);
+            // RyuDeviceConfigService
+            t.traceBegin("StartRyuDeviceConfigService");
+            mSystemServiceManager.startService(RyuDeviceConfigService.class);
             t.traceEnd();
 
             // LineageHardware

@@ -123,7 +123,7 @@ import java.util.Set;
 import java.util.concurrent.Executor;
 import java.util.function.Consumer;
 
-import com.android.internal.util.clover.DeviceConfigUtils;
+import com.android.internal.util.ryu.DeviceConfigUtils;
 
 /**
  * The Settings provider contains global system-level device preferences.
@@ -6739,17 +6739,17 @@ public final class Settings {
          * 1: Display the battery as a circle
          * 2: Display the battery as plain text
          * default: 0
-         * 
+         *
          * @hide
          */
         public static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
-        
+
         /**
          * Status bar battery %
          * 0: Hide the battery percentage
          * 1: Display the battery percentage inside the icon
          * 2: Display the battery percentage next to the icon
-         * 
+         *
          * @hide
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_battery_percent";

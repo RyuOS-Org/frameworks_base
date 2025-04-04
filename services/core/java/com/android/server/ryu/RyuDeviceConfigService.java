@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.android.server.clover;
+package com.android.server.ryu;
 
 import android.content.Context;
 import com.android.server.SystemService;
 
-import com.android.internal.util.clover.DeviceConfigUtils;
+import com.android.internal.util.ryu.DeviceConfigUtils;
 
-public class CloverDeviceConfigService extends SystemService {
+public class RyuDeviceConfigService extends SystemService {
 
-    private static final String TAG = "CloverDeviceConfigService";
+    private static final String TAG = "RyuDeviceConfigService";
 
     private final Context mContext;
 
-    public CloverDeviceConfigService(Context context) {
+    public RyuDeviceConfigService(Context context) {
         super(context);
         mContext = context;
     }

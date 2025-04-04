@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2024 The Clover Project
+ * Copyright (C) 2025 Ryu-UI Org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.systemui.clover
+package com.android.systemui.ryu
 
 import com.android.systemui.qs.tileimpl.QSTileImpl
 import com.android.systemui.qs.tiles.AmbientDisplayTile
@@ -36,7 +37,7 @@ import dagger.multibindings.IntoMap
 import dagger.multibindings.StringKey
 
 @Module
-interface CloverModule {
+interface RyuModule {
     /** Inject AmbientDisplayTile into tileMap in QSModule */
     @Binds
     @IntoMap
@@ -48,13 +49,13 @@ interface CloverModule {
     @IntoMap
     @StringKey(AODTile.TILE_SPEC)
     fun bindAODTile(aodTile: AODTile): QSTileImpl<*>
-    
+
     /** Inject CaffeineTile into tileMap in QSModule */
     @Binds
     @IntoMap
     @StringKey(CaffeineTile.TILE_SPEC)
     fun bindCaffeineTile(caffeineTile: CaffeineTile): QSTileImpl<*>
-    
+
     /** Inject CellularTile into tileMap in QSModule */
     @Binds
     @IntoMap

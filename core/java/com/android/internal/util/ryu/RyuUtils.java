@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.internal.util.clover;
+package com.android.internal.util.ryu;
 
 import android.content.Context;
 import android.content.Intent;
@@ -29,7 +29,7 @@ import android.os.SystemProperties;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CloverUtils {
+public class RyuUtils {
 
     public static boolean isPackageInstalled(Context context, String packageName, boolean ignoreState) {
         if (packageName != null) {
